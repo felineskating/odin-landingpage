@@ -9,48 +9,54 @@
   </head>
   <body>
     <div class="hero">
-      <h1> Header Logo
-        <ul class="header-links">
-          <li><a href=""></a>header link one</li>
-          <li><a href=""></a>header link two</li>
-          <li><a href=""></a>header link three</li>
-        </ul>
-      </h1>
-      <h2>This website is awesome</h2>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <img src="image-1.jpg" alt="image-1">
+      <div class="hero-header">
+        <h1 class="header-logo"> Header Logo</h1>
+          <ul class="header-links">
+            <li><a href=""></a>header link one</li>
+            <li><a href=""></a>header link two</li>
+            <li><a href=""></a>header link three</li>
+          </ul>
+      </div>
+      <div class="hero-body">
+        <div class="hero-left">    
+          <h2 class="hero-main">This website is awesome</h2>
+          <p class="hero-sub">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+          <button class="hero-button" type="button">Sign up</button>
+        </div>
+        <img class="hero-img" src="image-1.jpg" alt="this is a placeholder for an image">
+      </div>  
     </div>
-    <div class="info">
-      <h3> Some Random Information</h3>
+    <h3 class="info-main"> Some Random Information.</h3>
+      <div class="info-body">
         <div class="img-with-text">
-          <img src="image-2.jpg" alt="image-2" />
-          <p>this is some subtext under an image</p>
+          <img class="img-info" src="image-2.jpg" alt="image-2" />
+          <span class="caption">this is some subtext under an illustration or image</span>
         </div>
         <div class="img-with-text">
-          <img src="image-3.jpg" alt="image-3" />
-          <p>this is some subtext under an image</p>
+          <img class="img-info" src="image-3.jpg" alt="image-3" />
+          <span class="caption">this is some subtext under an illustration or image</span>
         </div>
         <div class="img-with-text">
-          <img src="image-4.jpg" alt="image-4" />
-          <p>this is some subtext under an image</p>
+          <img class="img-info" src="image-4.jpg" alt="image-4" />
+          <span class="caption">this is some subtext under an illustration or image</span>
         </div>
         <div class="img-with-text">
-          <img src="image-5.jpg" alt="image-5" />
-          <p>this is some subtext under an image</p>
+          <img class="img-info" src="image-5.jpg" alt="image-5" />
+          <span class="caption">this is some subtext under an illustration or image</span>
         </div>
     </div> 
     <div class="quote"> 
       <h4> 
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
-          <sub>-Thor, God of Thunder</sub>
+        <p class="quote-main">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
+          <sub class="quote-sub">-Thor, God of Thunder</sub>
       </h4>  
     </div>
     <div class="call-to-action">
-      <h5>
-        <p>Call to action! It's time!</p>  
-          <sub>Sign up for our product by clicking that button right over there!</sub>
-        <button type="button">Sign up</button>
-      </h5>
+      <div class="cta-body">
+        <h5 class="cta-main">Call to action! It's time!</h5>  
+          <sub class="cta-sub">Sign up for our product by clicking that button right over there!</sub>
+      </div> 
+      <button class="cta-button" type="button">Sign up</button>  
     </div>
     <div class="footer">
       <h6>This is the footer</h6>

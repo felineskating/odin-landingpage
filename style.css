@@ -2,18 +2,145 @@
     background-color: #1F2937;
 }
 
-h2 {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: 800;
+.hero-header {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.hero, p, {
-    font-size: 18px;
+.header-logo {
+    font-size: 24px;
     color: #E5E7EB;
 }
 
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
+    list-style-type: none;
+    display: flex;  
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+.hero-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-left {
+    flex: 1 1 50%;
+}
+
+.hero-img {
+    flex: 1 1 50%;
+}
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-img {
+    width: 100px;
+    height: 100px; 
+    margin: auto;
+    background-color: #8b93a0;
+}
+
+.info-main{
+    font-size: 24px;
+    text-align: center;
+}
+
+.info-body {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.img-with-text {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.img-info {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+}
+.caption {
+    display: block;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-main {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-sub {
+    font-size: 24px;
+    color: black;
+    text-align: right;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2.5rem;
+    margin: 5rem
+}
+
+.cta-body {
+    align-self: flex-start;
+}
+
+.cta-button {
+    align-self: center;
+    border: 2px solid #F9FAF8;
+}
+
+.cta-main {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0; 
+}
+
+.cta-sub {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: .25rem 1.5rem;   
+}
+
+.footer {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: .1rem;
 }
