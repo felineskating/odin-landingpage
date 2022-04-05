@@ -1,0 +1,19 @@
+.hero, .footer{
+    background-color: #1F2937;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.hero, p, {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
